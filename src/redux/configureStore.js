@@ -3,6 +3,7 @@ import thunk from 'redux-thunk';
 import { reducerTrucks } from './reducers/reducerTrucks';
 import { reducerCars } from './reducers/reducerCars';
 
+// TODO: upgrade to redux/toolbox
 export default function configureStore(initialState) {
     return createStore(
         combineReducers({ cars: reducerCars, trucks: reducerTrucks }),
