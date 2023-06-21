@@ -1,5 +1,7 @@
 import React from 'react';
-const Button = ({ text, onClickFn }) => {
+import { IPropsButton } from '../../interfaces';
+
+const Button = ({ text, onClickFn }: IPropsButton) => {
     return (
         <button
             type="button"

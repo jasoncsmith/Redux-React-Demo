@@ -1,0 +1,60 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0 0 12px 0;
+    padding: 0;
+    font-weight: normal;
+    line-height: 1.3;
+    color: #858585;
+}
+h1 {
+    font-size: 28px;
+    color: #f0f0f0;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+h5 {
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+p {
+    padding: 0;
+    margin: 0 0 7px 0;
+}
+
+.app {
+    background-color: #221f2e;
+    padding: 20px;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 100vh;
+    padding: 20px 0;
+    color: #ddd;
+}
+#sidebar h5 {
+    color: #ddd;
+}
+.story__subtitle {
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.story__content {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+pre {
+    background: rgba(0, 0, 0, 0.3);
+}

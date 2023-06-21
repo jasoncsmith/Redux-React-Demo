@@ -1,10 +1,17 @@
-# Redux/React Demo
-This is a demonstration of using Redux, Redux-Thunk, and React to handle synchronous and asyncronous requests. It provides initial state, thunk dispatcher, actions, reducers, and react-redux to complete the data round trip.
+# React/Redux GUI Demo
 
-Reducers protect state by always returning a copy of state, never mutating state.
+## Features
+1. Written in Typescript
+2. Utilizes Redux for global state
+3. Loads state from local storage if available
+4. If local storage is empty fetches data from mock async api's (simulated)
+5. Remembers state for the following features: show/hide widget, mark widget as favorite
+6. Uses Material UI (MUI) for icons, chips, buttons, lists, popovers, select lists
+7. Uses Flex layout and responsive design
+
 
 ## To View
-Visit the GitPages site: https://jasoncsmith.github.io/Redux-React-Demo/build/
+Visit the GitPages site: https://jasoncsmith.github.io/React-Redux-GUI/build/
 
 ## To Install Locally
 
@@ -17,4 +24,7 @@ Visit the GitPages site: https://jasoncsmith.github.io/Redux-React-Demo/build/
 
 
 ## Todo 
-Update this demo to Redux/toolbox
+- Update to Redux/toolbox
+- Add background color selection to persisted state
+- Figure out why Typescript does not like my IState declaration in configureStore param list.
+

@@ -1,0 +1,17 @@
+.widget__menu {
+    padding: 0 10px;
+    display: inline-block;
+    background-color: #121212;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.select--is-open {
+    display: block;
+}
+
+.select--is-closed {
+    display: none !important;
+}
